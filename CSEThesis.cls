@@ -313,3 +313,10 @@
 % Figure name becomes "Fig." (was "Figure")
 \renewcommand\figurename{Fig.}
 
+\newcommand*{\captionsource}[2]{%
+  \caption[{#1}]{%
+    #1%
+    \\\hspace{\linewidth}%
+    \textbf{Source:} #2%
+  }%
+}
