@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.4)  17 FEB 2020 11:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.4)  18 FEB 2020 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -401,7 +401,7 @@ l.52 \include{chapter1}
 
  (/home/kaushal/Documents/git/btp-report-phase2/chapter1.tex
 Chapter 1.
-<fig/1-1.png, id=135, 2160.07pt x 901.3675pt>
+<fig/1-1.png, id=137, 2160.07pt x 901.3675pt>
 File: fig/1-1.png Graphic file (type png)
 <use fig/1-1.png>
 Package pdftex.def Info: fig/1-1.png  used on input line 11.
@@ -414,12 +414,12 @@ l.20
 
 
 ]
-<fig/1-2.png, id=142, 1459.4525pt x 676.5275pt>
+<fig/1-2.png, id=144, 1459.4525pt x 676.5275pt>
 File: fig/1-2.png Graphic file (type png)
 <use fig/1-2.png>
 Package pdftex.def Info: fig/1-2.png  used on input line 23.
 (pdftex.def)             Requested size: 346.89568pt x 160.80081pt.
- [2 </home/kaushal/Documents/git/btp-report-phase2/fig/1-1.png> </home/kaushal/Documents/git/btp-report-phase2/fig/1-2.png>]) [3] [4
+) [2 </home/kaushal/Documents/git/btp-report-phase2/fig/1-1.png> </home/kaushal/Documents/git/btp-report-phase2/fig/1-2.png>] [3] [4
 
 
 ]
@@ -428,19 +428,23 @@ Package pdftex.def Info: fig/1-2.png  used on input line 23.
 
 (/home/kaushal/Documents/git/btp-report-phase2/chapter2.tex
 Chapter 2.
-) [5
+<fig/1-3.png, id=161, 865.2325pt x 620.3175pt>
+File: fig/1-3.png Graphic file (type png)
+<use fig/1-3.png>
+Package pdftex.def Info: fig/1-3.png  used on input line 7.
+(pdftex.def)             Requested size: 231.26378pt x 165.80315pt.
+[5
 
 
-] [6
-
-
-]
+ </home/kaushal/Documents/git/btp-report-phase2/fig/1-3.png>]) [6]
 
 \openout2 = `chapter3.aux'.
 
 (/home/kaushal/Documents/git/btp-report-phase2/chapter3.tex
 Chapter 3.
 ) [7
+
+
 
 
 ] [8
@@ -472,7 +476,11 @@ Chapter 5.
 (/home/kaushal/Documents/git/btp-report-phase2/btp_report.bbl [12
 
 
-])
+]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 24.
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
  [13
 
@@ -482,22 +490,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `btp_report.out' has not changed.
-(rerunfilecheck)             Checksum: 7C80F207B05BD635B28F490246060A71;952.
+(rerunfilecheck)             Checksum: 6B568C28644DB6A220528F17B57140CE;947.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 6229 strings out of 492615
- 92936 string characters out of 6131391
- 187723 words of memory out of 5000000
- 9971 multiletter control sequences out of 15000+600000
- 14911 words of font info for 52 fonts, out of 8000000 for 9000
+ 6239 strings out of 492615
+ 93094 string characters out of 6131391
+ 187737 words of memory out of 5000000
+ 9979 multiletter control sequences out of 15000+600000
+ 15919 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,30p,706b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/kaushal/Documents/git/btp-report-phase2/btp_report.pdf (20 pages, 1893393 bytes).
+ 28i,6n,30p,706b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on /home/kaushal/Documents/git/btp-report-phase2/btp_report.pdf (20 pages, 1929028 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
+ 255 PDF objects out of 1000 (max. 8388607)
+ 210 compressed objects within 3 object streams
  42 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
