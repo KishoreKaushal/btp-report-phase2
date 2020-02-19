@@ -49,3 +49,31 @@ PCA is mathematically defined as an orthogonal linear transformation that transf
     \label{fig:phasesCompression}
 \end{figure}
 
+
+Let $W$ be a $d \times d$ matrix whose columns are the principal components of $X$. The transformation $T = X W$ maps a data vector $x_{(i)}$ from an original space of $d$ variables to a new space of $d$ variables which are uncorrelated over the dataset. However, not all the principal components need to be kept. Keeping only the first $L$ principal components, produced by using only the first $L$ eigenvectors, gives the truncated transformation:
+
+$T_L = XW_L$
+
+
+where the matrix $T_L$ now has $n$ rows but only $L$ columns. In other words, PCA learns a linear transformation 
+$t = W^{T}x, x \in \Re^{d}, t \in \Re^{L}$, where the columns of $d \times L$ matrix $W$ form an orthogonal basis for the $L$ features (the components of representation t) that are decorrelated. By construction, of all the transformed data matrices with only $L$ columns, this score matrix maximises the variance in the original data that has been preserved, while minimising the total squared reconstruction error $\left \| TW^T - T_LW_L^T\right \|_2^2 or \left \| X - X_L \right \|_2^2$.
+
+The basic steps for computing the PCA is as follows:
+
+\begin{enumerate}
+    \item Standardize the d-dimensional dataset.
+    \item Construct the covariance matrix.
+    \item Decompose the covariance matrix into its eigenvectors and eigenvalues.
+    \item Sort the eigenvalues by decreasing order to rank the corresponding eigenvectors.
+    \item Select $L$ eigenvectors which correspond to the $L$ largest eigenvalues, where $L$ is the dimensionality of the new feature subspace $L \leq d$.
+    \item Construct a projection matrix $W_L$ from the "top" $L$ eigenvectors.
+    \item Transform the $d$-dimensional input dataset $X$ using the projection matrix $W_L$ to obtain the new $L$-dimensional feature subspace.
+\end{enumerate}
+
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.75\textwidth]{fig/2-3.png}
+    \caption{Steps for dimensionality reduction using PCA}
+    \label{fig:dimensionalityReductionSteps}
+\end{figure}
