@@ -208,6 +208,11 @@ INPUT /home/kaushal/Documents/git/btp-report-phase2/fig/3-1.png
 INPUT /home/kaushal/Documents/git/btp-report-phase2/fig/3-2.png
 INPUT /home/kaushal/Documents/git/btp-report-phase2/fig/3-2.png
 INPUT /home/kaushal/Documents/git/btp-report-phase2/fig/3-2.png
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /home/kaushal/Documents/git/btp-report-phase2/fig/3-3.png
+INPUT /home/kaushal/Documents/git/btp-report-phase2/fig/3-3.png
+INPUT /home/kaushal/Documents/git/btp-report-phase2/fig/3-3.png
 OUTPUT /home/kaushal/Documents/git/btp-report-phase2/chapter4.aux
 INPUT /home/kaushal/Documents/git/btp-report-phase2/chapter4.tex
 INPUT /home/kaushal/Documents/git/btp-report-phase2/chapter4.tex

@@ -11,10 +11,14 @@
 \contentsline {chapter}{\numberline {3}JPEG}{11}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Overview}{11}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Algorithm}{12}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Conclusion}{13}{section.3.3}% 
-\contentsline {chapter}{\numberline {4}Algorithm II}{15}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Construction}{15}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Improved Method}{15}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Conclusion}{15}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{17}{chapter.5}% 
-\contentsline {chapter}{References}{19}{chapter.5}% 
+\contentsline {subsection}{\numberline {3.2.1}Splitting}{13}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Color Space Transform}{13}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Down-sampling}{14}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}Discrete Cosine Transform}{14}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.3}Conclusion}{14}{section.3.3}% 
+\contentsline {chapter}{\numberline {4}Algorithm II}{17}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Construction}{17}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Improved Method}{17}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Conclusion}{17}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{19}{chapter.5}% 
+\contentsline {chapter}{References}{21}{chapter.5}% 

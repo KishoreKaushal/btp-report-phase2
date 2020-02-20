@@ -24,14 +24,64 @@ quality.
 
 \section{Algorithm}
 
-
-
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.80\textwidth]{fig/3-2.png}
     \caption{JPEG Schematic}
     \label{fig:jpegSchematic}
 \end{figure}
+
+
+\subsection{Splitting}
+
+JPEG uses transform coding, it is largely based on the following observations:
+
+\begin{itemize}
+    \item Usually image contents change relatively slowly across images, i.e., it is unusual for intensity values to alter up and down several times in a small area, for example, within an $8 \times 8$ image block. A translation of this fact into the spatial frequency domain, implies, generally, lower spatial  frequency components contain more information than the high frequency components which often correspond to less useful details and noises.
+    \item Experiments suggest that humans are more immune to loss of higher spatial frequency components than loss of lower frequency components. Human vision is insensitive to high frequency components.
+\end{itemize}
+
+Hence, first step is to split the image into $8 \times 8$ blocks non-overlapping pixel blocks. If the image cannot be divided into $8 \times 8$ blocks then the block is zero padded.
+
+\vspace{1em}
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.50\textwidth]{fig/3-3.png}
+    \caption{Splitting into $8 \times 8$ blocks}
+    \label{fig:splitting}
+\end{figure}
+
+\subsection{Color Space Transform}
+
+JPEG makes use of $[Y, Cb, Cr]$ model instead of $[R, G, B]$ model. There is a reason for using the color space. The human eye is more sensitive to luminance than to chrominance. 
+
+\begingroup
+\centering
+    \begin{tabular}{|l|}
+    \hline
+    $Y = 0.299R + 0.587G + 0.114B$              \\ \hline
+    $Cb = -0.1687R - 0.3313G + 0.5B + 128$      \\ \hline
+    $Cr = 0.5R - 0.4187G - 0.0813B + 128$       \\ \hline
+    $R = Y + 1.402 (Cr - 128)$                   \\ \hline
+    $G = Y - 0.34414 (Cb - 128) - 0.71414(Cr - 128)$ \\ \hline
+    $B = Y + 1.772  (Cb - 128)$                   \\ \hline
+    \end{tabular}
+\captionof{table}{RGB and YCbCr conversion table}\label{tbl:RGBYCbCrTable}
+\endgroup
+
+
+\subsection{Down-sampling}
+
+After the color space transformation, the image is downsampled.
+Downsampling happens in such a way that $Y$ is taken for each pixel whereas $Cb$ and $Cr$ is taken for $2 \times 2$ blocks.
+
+Sometimes this steps is not carried out.
+
+\subsection{Discrete Cosine Transform}
+
+The key to the JPEG baseline compression process is a mathematical transformation known as the Discrete Cosine Transform (DCT). The DCT is in a class of mathematical operations that includes the well known Fast Fourier Transform (FFT), as well as many others. The basic purpose of these operations is to take a signal and transform it from one type of representation to another. For example, an image is a two-dimensional signal that is perceived by the human visual system. The DCT can be used to convert the signal (spatial information) into numeric data (“frequency” or “spectral” information) so that the image's information exists in a quantitative form that can be manipulated for compression.
+
 
 
 \section{Conclusion}

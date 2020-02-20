@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.4)  20 FEB 2020 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.4)  20 FEB 2020 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -380,7 +380,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `title.aux'.
 
  (/home/kaushal/Documents/git/btp-report-phase2/title.tex
-<IITPkdFullLogoColor.pdf, id=83, 270.00874pt x 264.99pt>
+<IITPkdFullLogoColor.pdf, id=99, 270.00874pt x 264.99pt>
 File: IITPkdFullLogoColor.pdf Graphic file (type pdf)
 <use IITPkdFullLogoColor.pdf>
 Package pdftex.def Info: IITPkdFullLogoColor.pdf  used on input line 19.
@@ -432,7 +432,7 @@ l.52 \include{chapter1}
 
  (/home/kaushal/Documents/git/btp-report-phase2/chapter1.tex
 Chapter 1.
-<fig/1-1.png, id=172, 2160.07pt x 901.3675pt>
+<fig/1-1.png, id=197, 2160.07pt x 901.3675pt>
 File: fig/1-1.png Graphic file (type png)
 <use fig/1-1.png>
 Package pdftex.def Info: fig/1-1.png  used on input line 11.
@@ -445,7 +445,7 @@ l.20
 
 
 ]
-<fig/1-2.png, id=179, 1459.4525pt x 676.5275pt>
+<fig/1-2.png, id=204, 1459.4525pt x 676.5275pt>
 File: fig/1-2.png Graphic file (type png)
 <use fig/1-2.png>
 Package pdftex.def Info: fig/1-2.png  used on input line 23.
@@ -459,7 +459,7 @@ Package pdftex.def Info: fig/1-2.png  used on input line 23.
 
 (/home/kaushal/Documents/git/btp-report-phase2/chapter2.tex
 Chapter 2.
-<fig/2-1.png, id=194, 865.2325pt x 620.3175pt>
+<fig/2-1.png, id=219, 865.2325pt x 620.3175pt>
 File: fig/2-1.png Graphic file (type png)
 <use fig/2-1.png>
 Package pdftex.def Info: fig/2-1.png  used on input line 7.
@@ -473,18 +473,18 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 33.
 See the caption package documentation for explanation.
 
-<fig/2-2.png, id=203, 903.375pt x 903.375pt>
+<fig/2-2.png, id=228, 903.375pt x 903.375pt>
 File: fig/2-2.png Graphic file (type png)
 <use fig/2-2.png>
 Package pdftex.def Info: fig/2-2.png  used on input line 46.
 (pdftex.def)             Requested size: 300.64009pt x 300.6372pt.
 [6] [7 </home/kaushal/Documents/git/btp-report-phase2/fig/2-2.png>]
-<fig/2-3.png, id=219, 1274.7625pt x 728.7225pt>
+<fig/2-3.png, id=243, 1274.7625pt x 728.7225pt>
 File: fig/2-3.png Graphic file (type png)
 <use fig/2-3.png>
 Package pdftex.def Info: fig/2-3.png  used on input line 77.
 (pdftex.def)             Requested size: 346.89568pt x 198.3033pt.
-<fig/2-4.png, id=220, 1387.584pt x 677.8926pt>
+<fig/2-4.png, id=244, 1387.584pt x 677.8926pt>
 File: fig/2-4.png Graphic file (type png)
 <use fig/2-4.png>
 Package pdftex.def Info: fig/2-4.png  used on input line 90.
@@ -498,20 +498,38 @@ Package pdftex.def Info: fig/2-4.png  used on input line 90.
 
 (/home/kaushal/Documents/git/btp-report-phase2/chapter3.tex
 Chapter 3.
-<fig/3-1.png, id=244, 520.94624pt x 602.25pt>
+<fig/3-1.png, id=268, 520.94624pt x 602.25pt>
 File: fig/3-1.png Graphic file (type png)
 <use fig/3-1.png>
 Package pdftex.def Info: fig/3-1.png  used on input line 17.
 (pdftex.def)             Requested size: 185.0082pt x 213.87836pt.
-<fig/3-2.png, id=247, 1238.6275pt x 826.08624pt>
+<fig/3-2.png, id=271, 1238.6275pt x 826.08624pt>
 File: fig/3-2.png Graphic file (type png)
 <use fig/3-2.png>
-Package pdftex.def Info: fig/3-2.png  used on input line 31.
+Package pdftex.def Info: fig/3-2.png  used on input line 29.
 (pdftex.def)             Requested size: 370.02347pt x 246.78156pt.
 [11
 
 
-] [12 </home/kaushal/Documents/git/btp-report-phase2/fig/3-1.png (PNG copy)> </home/kaushal/Documents/git/btp-report-phase2/fig/3-2.png>]) [13] [14
+] [12 </home/kaushal/Documents/git/btp-report-phase2/fig/3-1.png (PNG copy)> </home/kaushal/Documents/git/btp-report-phase2/fig/3-2.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+<fig/3-3.png, id=282, 639.38875pt x 439.6425pt>
+File: fig/3-3.png Graphic file (type png)
+<use fig/3-3.png>
+Package pdftex.def Info: fig/3-3.png  used on input line 50.
+(pdftex.def)             Requested size: 231.26378pt x 159.01581pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 70.
+See the caption package documentation for explanation.
+
+[13 </home/kaushal/Documents/git/btp-report-phase2/fig/3-3.png>]) [14] [15] [16
 
 
 ]
@@ -520,10 +538,10 @@ Package pdftex.def Info: fig/3-2.png  used on input line 31.
 
 (/home/kaushal/Documents/git/btp-report-phase2/chapter4.tex
 Chapter 4.
-) [15
+) [17
 
 
-] [16
+] [18
 
 
 ]
@@ -532,12 +550,12 @@ Chapter 4.
 
 (/home/kaushal/Documents/git/btp-report-phase2/futurework.tex
 Chapter 5.
-) [17
+) [19
 
 
 ]
 
-(/home/kaushal/Documents/git/btp-report-phase2/btp_report.bbl [18
+(/home/kaushal/Documents/git/btp-report-phase2/btp_report.bbl [20
 
 
 ]
@@ -546,7 +564,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 24.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
- [19
+ [21
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
@@ -554,7 +572,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `btp_report.out' has not changed.
-(rerunfilecheck)             Checksum: EB476CEE33DE0993E6B7D325F1FBEBAB;1149.
+(rerunfilecheck)             Checksum: 41FEF6DC550212A8427F897C79BFC653;1433.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -562,18 +580,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 7356 strings out of 492615
- 113179 string characters out of 6131391
- 211210 words of memory out of 5000000
- 11062 multiletter control sequences out of 15000+600000
+ 7392 strings out of 492615
+ 113751 string characters out of 6131391
+ 211330 words of memory out of 5000000
+ 11086 multiletter control sequences out of 15000+600000
  15080 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,41p,706b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,41p,811b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /home/kaushal/Documents/git/btp-report-phase2/btp_report.pdf (26 pages, 4949526 bytes).
+Output written on /home/kaushal/Documents/git/btp-report-phase2/btp_report.pdf (28 pages, 5372451 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
