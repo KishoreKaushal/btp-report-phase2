@@ -34,7 +34,7 @@ The compression technique where the decompressed data is exactly same as origina
 \endgroup
 
 
-\section{Lossy Compression using PCA}
+\section{Dimensionality Reduction PCA}
 
 Principal components analysis (PCA) is one of a family of techniques for taking high-dimensional data, and using the dependencies between the variables to represent it in a more tractable, lower-dimensional form, without losing too much information. PCA is one of the simplest and most robust ways of doing such dimensionality reduction.
 
@@ -70,6 +70,7 @@ The basic steps for computing the PCA is as follows:
     \item Transform the $d$-dimensional input dataset $X$ using the projection matrix $W_L$ to obtain the new $L$-dimensional feature subspace.
 \end{enumerate}
 
+\vspace{1em}
 
 \begin{figure}[!ht]
     \centering
@@ -77,3 +78,20 @@ The basic steps for computing the PCA is as follows:
     \caption{Steps for dimensionality reduction using PCA}
     \label{fig:dimensionalityReductionSteps}
 \end{figure}
+
+\vspace{1em}
+
+\section{Image compression using PCA}
+
+We will follow the steps mentioned in the previous section for dimensionality reduction using PCA. The results of the experiments are tabulated below:
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=1\textwidth]{fig/2-4.png}
+    \caption{ CR = Compression Ratio, SSIM = Structural Similarity Index, VAR = Variance. Results of compression using the PCA method. Higher variance leads to more number of principal components and higher is the reconstructed image quality and lower the compression rate.}
+    \label{fig:imageCompressionUsingPCA}
+\end{figure}
+
+Code for the above test can be found here: \href{https://github.com/KishoreKaushal/ImageCompression/tree/master/PCA}{@KishoreKaushal/ImageCompression/}
+
+It is clear from the above experiment that higher variance leads to more number of principal components and higher is the reconstructed image quality and lower the compression rate. Infact, the first $L$ principal components is selected to get atleast the given number of variance.
