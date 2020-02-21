@@ -124,7 +124,55 @@ Why DCT? Human vision is insensitive to high-frequency components, due to which 
     \label{eq:DCTTransform}
 \end{equation}
 
-\subsection{Qunatization}
+\subsection{Coefficient Quantization}
+
+Humans are unable to see aspects of an image that are at really high frequencies. Since taking the DCT allows us to isolate where these high frequencies are, we can take advantage of this in choosing which values to preserve. By multiplying the DCT matrix by some mask, we can zero out elements of the matrix, thereby freeing the memory that had been representing those values. The resultant quantize matrix will only preserve values at the lowest frequencies up to a certain point.
+
+\begin{equation}
+    \begin{split}
+        DCT_q[i,j] = \left \lfloor \frac{DCT[i,j]}{Q[i,j]} \right \rceil
+    \end{split}
+    \label{eq:quantizationFormula}
+\end{equation}
+
+In Eq. \ref{eq:quantizationFormula} $Q$ is the quantization matrix. JPEG Standard defines two default quantization tables, one each for luminance and chrominance.
+
+\begingroup
+\centering
+    \begin{tabular}{|l|l|l|l|l|l|l|l|}
+    \hline
+    16 & 11 & 10 & 16 & 24  & 40  & 51  & 61  \\ \hline
+    12 & 12 & 14 & 19 & 26  & 58  & 60  & 55  \\ \hline
+    14 & 13 & 16 & 24 & 40  & 57  & 69  & 56  \\ \hline
+    14 & 17 & 22 & 29 & 51  & 87  & 80  & 62  \\ \hline
+    18 & 22 & 37 & 56 & 68  & 109 & 103 & 77  \\ \hline
+    24 & 35 & 55 & 64 & 81  & 104 & 113 & 92  \\ \hline
+    49 & 64 & 78 & 87 & 103 & 121 & 120 & 101 \\ \hline
+    72 & 92 & 95 & 98 & 112 & 100 & 103 & 99  \\ \hline
+    \end{tabular}
+    \captionof{table}{Luminance Quantization Table}\label{tbl:LuminanceQuantTable}
+\endgroup
+
+\vspace{2em}
+
+\begingroup
+\centering
+    \begin{tabular}{|l|l|l|l|l|l|l|l|}
+    \hline
+    17 & 18 & 24 & 47 & 99 & 99 & 99 & 99 \\ \hline
+    18 & 21 & 26 & 66 & 99 & 99 & 99 & 99 \\ \hline
+    24 & 26 & 56 & 99 & 99 & 99 & 99 & 99 \\ \hline
+    47 & 66 & 99 & 99 & 99 & 99 & 99 & 99 \\ \hline
+    99 & 99 & 99 & 99 & 99 & 99 & 99 & 99 \\ \hline
+    99 & 99 & 99 & 99 & 99 & 99 & 99 & 99 \\ \hline
+    99 & 99 & 99 & 99 & 99 & 99 & 99 & 99 \\ \hline
+    99 & 99 & 99 & 99 & 99 & 99 & 99 & 99 \\ \hline
+    \end{tabular}
+    \captionof{table}{Chrominance Quantization  Table}\label{tbl:ChrominanceQuantTable}
+\endgroup
+
+The quantization step is the major information losing step in JPEG
+compression.
 
 \section{Conclusion}
 In this chapter, we proposed a distributed algorithm
