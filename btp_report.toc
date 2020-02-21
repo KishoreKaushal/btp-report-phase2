@@ -18,9 +18,8 @@
 \contentsline {subsection}{\numberline {3.2.5}Coefficient Quantization}{16}{subsection.3.2.5}% 
 \contentsline {subsection}{\numberline {3.2.6}Encoding}{17}{subsection.3.2.6}% 
 \contentsline {section}{\numberline {3.3}Conclusion}{19}{section.3.3}% 
-\contentsline {chapter}{\numberline {4}Algorithm II}{21}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Construction}{21}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Improved Method}{21}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Conclusion}{21}{section.4.3}% 
+\contentsline {chapter}{\numberline {4}Perceptual Image Compression}{21}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Content aware compression}{21}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Conclusion}{22}{section.4.2}% 
 \contentsline {chapter}{\numberline {5}Conclusion and Future Work}{23}{chapter.5}% 
 \contentsline {chapter}{References}{25}{chapter.5}% 
