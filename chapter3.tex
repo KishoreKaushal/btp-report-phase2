@@ -82,6 +82,40 @@ Sometimes this steps is not carried out.
 
 The key to the JPEG baseline compression process is a mathematical transformation known as the Discrete Cosine Transform (DCT). The DCT is in a class of mathematical operations that includes the well known Fast Fourier Transform (FFT), as well as many others. The basic purpose of these operations is to take a signal and transform it from one type of representation to another. For example, an image is a two-dimensional signal that is perceived by the human visual system. The DCT can be used to convert the signal (spatial information) into numeric data (“frequency” or “spectral” information) so that the image's information exists in a quantitative form that can be manipulated for compression.
 
+The DCT is performed on an $N \times N$ square matrix of pixel values, and it yields an $N \times N$ square matrix of frequency coefficients. (In practice, N most often equals 8 because a larger block, though would probably give better compression, often takes a great deal of time to perform DCT calculations, creating an unreasonable tradeoff. As a result, DCT implementations typically break the image down into more manageable $8 \times 8$ blocks.) The DCT formula looks somewhat intimidating at first glance but can be implemented with a relatively straightforward piece of code.
+
+\begin{equation}
+    \begin{split}
+    DCT[i,j] = \frac{1}{\sqrt{2N}} \: C[i] \: C[j] \; \sum_{x=0}^{N-1} \sum_{y=0}^{N-1} \; I[x,y] \: cos[\frac{(2x + 1)i\pi}{2N}] \: cos[\frac{(2y + 1)j\pi}{2N}]  \\
+    where \; C(x) = \frac{1}{\sqrt{2}} \; if \; x=0, \; else \;1 \; if \; x>0
+    \end{split}
+\end{equation}
+
+\vspace{2em}
+
+\begin{equation}
+    \begin{bmatrix}
+        140 & 144 & 147 & 140 & 140 & 155 & 179 & 175\\ 
+        144 & 152 & 140 & 147 & 140 & 148 & 167 & 179\\ 
+        152 & 155 & 136 & 167 & 163 & 162 & 152 & 172\\ 
+        168 & 145 & 156 & 160 & 152 & 155 & 136 & 160\\ 
+        162 & 148 & 156 & 148 & 140 & 136 & 147 & 162\\ 
+        147 & 167 & 140 & 155 & 155 & 140 & 136 & 162\\ 
+        136 & 156 & 123 & 167 & 162 & 144 & 140 & 147\\ 
+        148 & 155 & 136 & 155 & 152 & 147 & 147 & 136
+    \end{bmatrix}   
+\end{equation}
+
+$\begin{bmatrix}
+    140 & 144 & 147 & 140 & 140 & 155 & 179 & 175\\ 
+    144 & 152 & 140 & 147 & 140 & 148 & 167 & 179\\ 
+    152 & 155 & 136 & 167 & 163 & 162 & 152 & 172\\ 
+    168 & 145 & 156 & 160 & 152 & 155 & 136 & 160\\ 
+    162 & 148 & 156 & 148 & 140 & 136 & 147 & 162\\ 
+    147 & 167 & 140 & 155 & 155 & 140 & 136 & 162\\ 
+    136 & 156 & 123 & 167 & 162 & 144 & 140 & 147\\ 
+    148 & 155 & 136 & 155 & 152 & 147 & 147 & 136
+\end{bmatrix}$
 
 
 \section{Conclusion}
