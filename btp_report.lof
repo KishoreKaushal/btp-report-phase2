@@ -2,18 +2,18 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Examples of pattern recognition}}{2}{figure.caption.7}% 
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Key phases of image processing\relax }}{2}{figure.caption.8}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Compression phases}}{5}{figure.caption.9}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces PCA of a multivariate Gaussian distribution centered at (1,3) with a standard deviation of 3 in roughly the (0.866, 0.5) direction and of 1 in the orthogonal direction.}}{7}{figure.caption.10}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Steps for dimensionality reduction using PCA\relax }}{8}{figure.caption.11}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces CR = Compression Ratio, SSIM = Structural Similarity Index, VAR = Variance. Results of compression using the PCA method. Higher variance leads to more number of principal components and higher is the reconstructed image quality and lower the compression rate.\relax }}{9}{figure.caption.12}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Compression phases}}{3}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces PCA of a multivariate Gaussian distribution centered at (1,3) with a standard deviation of 3 in roughly the (0.866, 0.5) direction and of 1 in the orthogonal direction.}}{5}{figure.caption.10}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Steps for dimensionality reduction using PCA\relax }}{6}{figure.caption.11}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces CR = Compression Ratio, SSIM = Structural Similarity Index, VAR = Variance. Results of compression using the PCA method. Higher variance leads to more number of principal components and higher is the reconstructed image quality and lower the compression rate.\relax }}{7}{figure.caption.12}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A photo of a European wildcat with the compression rate decreasing and hence quality increasing, from left to right.}}{12}{figure.caption.13}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces JPEG Schematic\relax }}{12}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Splitting into $8 \times 8$ blocks\relax }}{13}{figure.caption.15}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Reorder the DCT block in a zig-zag sequence}}{18}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A photo of a European wildcat with the compression rate decreasing and hence quality increasing, from left to right.}}{10}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces JPEG Schematic\relax }}{10}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Splitting into $8 \times 8$ blocks\relax }}{11}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Reorder the DCT block in a zig-zag sequence}}{16}{figure.caption.16}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces First convolutional layer in LeNet}}{22}{figure.caption.17}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces LeNet : a traditional CNN}}{23}{figure.caption.18}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Class Activation Mapping: the predicted class score is mapped back to the previous convolutional layer to generate the class activation maps (CAMs). The CAM highlights the class-specific discriminative regions.}}{24}{figure.caption.19}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison of various methods of detecting objects in an image}}{24}{figure.caption.20}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces First convolutional layer in LeNet}}{20}{figure.caption.17}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces LeNet : a traditional CNN}}{21}{figure.caption.18}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Class Activation Mapping: the predicted class score is mapped back to the previous convolutional layer to generate the class activation maps (CAMs). The CAM highlights the class-specific discriminative regions.}}{22}{figure.caption.19}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison of various methods of detecting objects in an image}}{22}{figure.caption.20}% 
 \addvspace {10\p@ }
