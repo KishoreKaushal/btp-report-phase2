@@ -1,5 +1,5 @@
 \contentsline {chapter}{List of Figures}{iv}{chapter*.4}% 
-\contentsline {chapter}{List of Tables}{v}{chapter*.5}% 
+\contentsline {chapter}{List of Tables}{vi}{chapter*.5}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Image Processing}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Recent advances}{2}{section.1.2}% 
@@ -20,10 +20,10 @@
 \contentsline {section}{\numberline {3.3}Conclusion}{19}{section.3.3}% 
 \contentsline {chapter}{\numberline {4}Perceptual Image Compression}{21}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Content aware compression}{21}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Object Localization}{22}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Multi-Structure Region of Interest}{22}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}MS-ROI and JPEG}{22}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Model}{22}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Conclusion}{22}{section.4.6}% 
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{23}{chapter.5}% 
-\contentsline {chapter}{References}{25}{chapter.5}% 
+\contentsline {section}{\numberline {4.2}Object Localization using CNNs}{22}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Multi-Structure Region of Interest}{24}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}MS-ROI and JPEG}{24}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Model}{24}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Conclusion}{24}{section.4.6}% 
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{25}{chapter.5}% 
+\contentsline {chapter}{References}{27}{chapter.5}% 

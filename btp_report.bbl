@@ -26,4 +26,15 @@ A.~{Prakash}, N.~{Moran}, S.~{Garber}, A.~{DiLillo}, and J.~{Storer},
   ``Semantic perceptual image compression using deep convolution networks,''
   2017.
 
+\bibitem{Oquab2015}
+M.~{Oquab}, L.~{Bottou}, I.~{Laptev}, and J.~{Sivic}, ``Is object localization
+  for free? weakly-supervised learning with convolutional neural networks,''
+  \emph{Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition}, pp. 685--694, 2015.
+
+\bibitem{Zhou2016}
+B.~{Zhou}, A.~{Khosla}, A.~{Lapedriza}, A.~{Oliva}, and A.~{Torralba},
+  ``Learning deep features for discriminative localization,'' \emph{IEEE
+  Conference on Computer Vision and Pattern Recognition (CVPR)}, 2016.
+
 \end{thebibliography}

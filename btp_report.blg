@@ -22,45 +22,45 @@ Database file #1: btp.bib
 Warning--empty journal in Prakash2017
 
 Done.
-You've used 1 entry,
+You've used 3 entries,
             4024 wiz_defined-function locations,
-            821 strings with 7512 characters,
-and the built_in function-call counts, 559 in all, are:
-= -- 28
-> -- 21
-< -- 0
-+ -- 10
-- -- 5
-* -- 41
-:= -- 100
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 1
-chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 39
-empty$ -- 40
-format.name$ -- 6
-if$ -- 101
+            834 strings with 7985 characters,
+and the built_in function-call counts, 1895 in all, are:
+= -- 130
+> -- 66
+< -- 8
++ -- 34
+- -- 14
+* -- 103
+:= -- 300
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 21
+cite$ -- 4
+duplicate$ -- 140
+empty$ -- 146
+format.name$ -- 17
+if$ -- 408
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 26
-num.names$ -- 1
-pop$ -- 28
+int.to.str$ -- 3
+missing$ -- 27
+newline$ -- 32
+num.names$ -- 3
+pop$ -- 77
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 32
+skip$ -- 132
 stack$ -- 0
-substring$ -- 1
-swap$ -- 22
-text.length$ -- 0
+substring$ -- 52
+swap$ -- 97
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1
+type$ -- 3
 warning$ -- 1
-while$ -- 1
-width$ -- 2
-write$ -- 29
+while$ -- 6
+width$ -- 4
+write$ -- 46
 (There was 1 warning)

@@ -20,7 +20,7 @@
 \BOOKMARK [1][-]{section.3.3}{Conclusion}{chapter.3}% 20
 \BOOKMARK [0][-]{chapter.4}{Perceptual Image Compression}{}% 21
 \BOOKMARK [1][-]{section.4.1}{Content aware compression}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Object Localization}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Object Localization using CNNs}{chapter.4}% 23
 \BOOKMARK [1][-]{section.4.3}{Multi-Structure Region of Interest}{chapter.4}% 24
 \BOOKMARK [1][-]{section.4.4}{MS-ROI and JPEG}{chapter.4}% 25
 \BOOKMARK [1][-]{section.4.5}{Model}{chapter.4}% 26
