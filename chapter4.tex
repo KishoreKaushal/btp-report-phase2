@@ -51,12 +51,26 @@ Unlike traditional CNNs where the last two layers are fully-connected, the autho
 
 \section{Multi-Structure Region of Interest}
 
+Since CAMs are trained to maximize the posterior probability for the class, they tend to only highlight a single most prominent object. This makes them useful for studying the output of CNNs, but not well suited to more general semantic saliency, as real-world images typically contain multiple objects of interest.
+
+The authors of \cite{Prakash2017} have proposed a developed a variant of CAM which balances the activation for multiple objects and thus does not suffer from the issues of global average pooling. MS-ROI allows us to effectively train on localization tasks independent of the number of classes. 
 
 
 \section{MS-ROI and JPEG}
 
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=0.80\textwidth]{fig/4-4.png}
+    \captionsource{Comparison of various methods of detecting objects in an image}
+    {Prakash2017 \cite{Prakash2017}}
+    \label{fig:comparisonOfObjectDetectingMethods}
+\end{figure}
+
+MS-ROI returns a saliency value for each pixel in the range of $[0, 1]$, where $1$ means maximum saliency. Using this saliency values the quality factor is decided, which will finally be used to determine the quantization matrix.
 
 \section{Model}
+
+
 
 \section{Conclusion}
 In this chapter, we proposed another distributed algorithm for

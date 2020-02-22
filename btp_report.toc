@@ -21,9 +21,9 @@
 \contentsline {chapter}{\numberline {4}Perceptual Image Compression}{21}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Content aware compression}{21}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Object Localization using CNNs}{22}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Multi-Structure Region of Interest}{24}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Multi-Structure Region of Interest}{23}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}MS-ROI and JPEG}{24}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Model}{24}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Conclusion}{24}{section.4.6}% 
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{25}{chapter.5}% 
-\contentsline {chapter}{References}{27}{chapter.5}% 
+\contentsline {section}{\numberline {4.5}Model}{25}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Conclusion}{25}{section.4.6}% 
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{27}{chapter.5}% 
+\contentsline {chapter}{References}{29}{chapter.5}% 

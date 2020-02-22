@@ -15,4 +15,5 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces First convolutional layer in LeNet}}{22}{figure.caption.17}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces LeNet : a traditional CNN}}{23}{figure.caption.18}% 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Class Activation Mapping: the predicted class score is mapped back to the previous convolutional layer to generate the class activation maps (CAMs). The CAM highlights the class-specific discriminative regions.}}{24}{figure.caption.19}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Comparison of various methods of detecting objects in an image}}{24}{figure.caption.20}% 
 \addvspace {10\p@ }
